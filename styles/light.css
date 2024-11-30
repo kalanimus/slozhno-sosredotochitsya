@@ -15,7 +15,6 @@
   --header__image: url("../images/cover-image-light.png");
 }
 
-
 @media (prefers-color-scheme: light) {
   :root {
     --font-color: #353430;
@@ -26,9 +25,9 @@
     --title-decor: #ff8dcb;
     --article-text-color: #353430;
     --header__image: url("../images/cover-image-light.png");
-    }
+  }
 }
 
-.theme_light .header__decoration{
+.theme_light .header__decoration {
   display: none;
 }

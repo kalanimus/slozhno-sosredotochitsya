@@ -13,6 +13,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, min-content);
+  height: 100vh;
 }
 
 .header::before {
@@ -260,6 +261,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
   margin-block-start: 60px;
   padding-block-start: 40px;
   padding-block-end: 285px;

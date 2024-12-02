@@ -154,6 +154,10 @@
   background-color: var(--title-decor);
 }
 
+.section__subtitle{
+  margin-block-end: 20px;
+}
+
 .section__text {
   color: var(--article-text-color);
   font-size: 18px;
@@ -185,7 +189,7 @@
 .link {
   border: 1px solid transparent;
   text-decoration: none;
-  text-shadow: 3px 2px var(--accent-color);
+  text-shadow: 3px 2px var(--title-decor);
   cursor: pointer;
 }
 
@@ -277,7 +281,7 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 580px) {
   :root {
     --title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   }
